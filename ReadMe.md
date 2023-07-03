@@ -1,8 +1,5 @@
 # Code for the paper "Distributed photovoltaics provides key benefits for a highly renewable European energy system"
 
-%[![DOI](https://zenodo.org/badge/513162844.svg)](https://zenodo.org/badge/latestdoi/513162844)
-
-
 This repository contains the code notebooks to reproduce the figures in the main text ans supplementary.
 
 ## Abstract
