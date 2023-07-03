@@ -1,6 +1,6 @@
 # Code for the paper "Distributed photovoltaics provides key benefits for a highly renewable European energy system"
 
-This repository contains the code notebooks to reproduce the figures in the main text ans supplementary.
+This repository contains the notebooks to reproduce figures in the main text ans supplementary.
 
 ## Abstract
 
