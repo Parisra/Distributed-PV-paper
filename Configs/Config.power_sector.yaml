@@ -44,8 +44,8 @@ scenario:
     ##- Co2L0p05-2H-solar+p3-dist5-noH2network-higheff0.75                                 # S/A 
     #- Co2L0p05-2H-solar+p3-dist2-noH2network-cheapbattery                                 # scenario B sensitivity to battery costs
     #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomegen-cheapbattery                       # S/A
-    #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomebattery                                # scenario B  sensitivity: enable (no_distsolar) 
-    #- Co2L0p05-2H-solar+p3-dist2-nohomegen-noH2network-nodistsolar                        # scenario B sensitivity: enable(no_homebattery)
+    #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomebattery                                # scenario B  sensitivity: no homebattery
+    #- Co2L0p05-2H-solar+p3-dist2-nohomegen-noH2network-nodistsolar                        # scenario B sensitivity: enable (no_distsolar)
     
   # to really understand the options here, look in scripts/prepare_sector_network.py
   # Co2Lx specifies the CO2 target in x% of the 1990 values; default will give default (5%);
