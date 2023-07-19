@@ -30,22 +30,24 @@ scenario:
     #- Co2L0p05-2H-solar+p3-dist2-nohomegen-noH2network                              # scenario B without dist. solar+battery
     #- Co2L0p05-2H-solar+p3-dist2-noH2network-higheff1                               # scenario A :  for 1.1, 1.5, 'opt'
     #- Co2L0p05-2H-solar+p3-dist2-nohomegen-noH2network-higheff1                     # scenario A without dist. solar+battery
-    #- Co2L0p20-2H-solar+p3-dist2-noH2network                                              # scenario B: 80% emission constraint sensitivity
-    #- Co2L0p20-2H-solar+p3-dist2-noH2network-nohomegen                                    # S/A
-    ##- Co2L0p05-2H-solar+p3-dist2-noH2network-higheff1                                    # for transmission to distribution sensitivity
-    ##- Co2L0p05-2H-solar+p3-dist1-noH2network                                             # S/A
-    ##- Co2L0p05-2H-solar+p3-dist0-noH2network-higheff1                                    # scneario B sensitivity to dist. grid costs+losses
-    ##- Co2L0p05-2H-solar+p3-dist0-noH2network-higheff0.9                                  # S/A 
-    ##- Co2L0p05-2H-solar+p3-dist0-noH2network-higheff0.75                                 # S/A 
-    ##- Co2L0p05-2H-solar+p3-dist1-noH2network-higheff0.9                                  # S/A 
-    ##- Co2L0p05-2H-solar+p3-dist1-noH2network-higheff0.75                                 # S/A 
-    ##- Co2L0p05-2H-solar+p3-dist5-noH2network-higheff1                                    # S/A 
-    ##- Co2L0p05-2H-solar+p3-dist5-noH2network-higheff0.9                                  # S/A 
-    ##- Co2L0p05-2H-solar+p3-dist5-noH2network-higheff0.75                                 # S/A 
-    #- Co2L0p05-2H-solar+p3-dist2-noH2network-cheapbattery                                 # scenario B sensitivity to battery costs
-    #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomegen-cheapbattery                       # S/A
-    #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomebattery                                # scenario B  sensitivity: no homebattery
-    #- Co2L0p05-2H-solar+p3-dist2-nohomegen-noH2network-nodistsolar                        # scenario B sensitivity: enable (no_distsolar)
+    #- Co2L0p20-2H-solar+p3-dist2-noH2network                                             # scenario B: 80% emission constraint sensitivity
+    #- Co2L0p20-2H-solar+p3-dist2-noH2network-nohomegen                                   # S/A
+    #- Co2L0p05-2H-solar+p3-dist2-noH2network-higheff1                                    # for transmission to distribution sensitivity
+    #- Co2L0p05-2H-solar+p3-dist1-noH2network                                             # S/A
+    #- Co2L0p05-2H-solar+p3-dist0-noH2network-higheff1                                    # scneario B sensitivity to dist. grid costs+losses
+    #- Co2L0p05-2H-solar+p3-dist0-noH2network-higheff0.9                                  # S/A 
+    #- Co2L0p05-2H-solar+p3-dist0-noH2network-higheff0.75                                 # S/A 
+    #- Co2L0p05-2H-solar+p3-dist1-noH2network-higheff0.9                                  # S/A 
+    #- Co2L0p05-2H-solar+p3-dist1-noH2network-higheff0.75                                 # S/A 
+    #- Co2L0p05-2H-solar+p3-dist5-noH2network-higheff1                                    # S/A 
+    #- Co2L0p05-2H-solar+p3-dist5-noH2network-higheff0.9                                  # S/A 
+    #- Co2L0p05-2H-solar+p3-dist5-noH2network-higheff0.75                                 # S/A 
+    #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomebattery                               # scenario B  sensitivity: no homebattery
+    #- Co2L0p05-2H-solar+p3-dist2-nohomegen-noH2network-nodistsolar                       # scenario B sensitivity: enable (no_distsolar)
+    #- Co2L0p05-2H-solar+p3-dist2-noH2network-2link                                       # scenario B sensitivity to 2-way distribution grid link (enable in prepare_sector_network)
+    #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomegen-2link                             # S/A
+    #- Co2L0p05-2H-solar+p3-dist2-noH2network-cheapbattery                                # scenario B sensitivity to battery costs (enable in prepare_sector_network)
+    #- Co2L0p05-2H-solar+p3-dist2-noH2network-nohomegen-cheapbattery                      # S/A
     
   # to really understand the options here, look in scripts/prepare_sector_network.py
   # Co2Lx specifies the CO2 target in x% of the 1990 values; default will give default (5%);
