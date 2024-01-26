@@ -2707,17 +2707,16 @@ if __name__ == "__main__":
 
     if options['electricity_distribution_grid']:
             ### all added except insert_electricity_distribution_grid(n, costs)
+
+      dist_link_eff=  options['distribution_efficiency'] 
       for o in opts:
         if o[:7] == 'higheff': 
           dist_link_eff = float(o[7:]) 
-        else:
-          dist_link_eff=  options['distribution_efficiency']
 
+      rooftop_factor =1
       for o in opts:
         if o[:11] == 'highrooftop': 
-          rooftop_factor = float(o[11:])   
-        else:
-          rooftop_factor= 1
+          rooftop_factor = float(o[11:]) 
 
       if "nohomegen" in opts:             ##  added for 'no (distributed solar+home batteries)' option
         insert_electricity_distribution_grid(n, costs, distsolar=False, distbat=False, distribution_efficiency=dist_link_eff)    ##  added link efficiency
