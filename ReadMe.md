@@ -23,7 +23,7 @@ scenario and is helped by other distributed technologies including heat pumps an
 
 - `notebooks` contains the Jupyter notebooks used for the evaluation of results.
 Attention: The code is customised for networks of this study, so care should be taken
-when it used to produce similiar figures for PyPSA network files. 
+when using it to produce similiar figures for PyPSA network files. 
 
 ## Usage
 
