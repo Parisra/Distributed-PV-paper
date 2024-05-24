@@ -27,6 +27,6 @@ when using it to produce similiar figures for PyPSA network files.
 
 ## Usage
 
-The notebooks use pre-solved networks (avialble at zenodo:TBD) to produce the figures from the paper.
+The notebooks use pre-solved networks (main scenario files avialble at zenodo:https://zenodo.org/records/11277299) to produce the figures from the paper.
 PyPSA-Eur-Sec v0.6.0 is used to produce the networks.
  
